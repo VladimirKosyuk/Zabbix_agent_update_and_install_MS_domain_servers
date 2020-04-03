@@ -1,0 +1,3 @@
+#type below smb path to log file output
+Output = 
+
