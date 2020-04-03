@@ -25,7 +25,6 @@ zabbix conf is not equal to repo version, Hostname string is excluded from compa
 
 #Codnitions:
 <# 
-Module Active directory;
 Windows 2012 R2 (for Windows 2008 R2 cannot create firewall rule and check connectivity between host and zabbix server);
 Default path for zabbix agent need to be c:\Program Files\zabbix40
 Repository need to placed in NETLOGON\zabbix40
