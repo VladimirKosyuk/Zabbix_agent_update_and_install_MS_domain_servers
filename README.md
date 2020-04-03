@@ -22,7 +22,7 @@ Versions:
 
 1. Zabbix_agent_remote - runs remotely via invoke-command for each windows server in AD. AD module need to be installed to collect servers list. Servers accounts in AD need to be enabled for delegation for any service via Kerberos auth. 
 
-2. Zabbix_agent_local - runs localy on server. Can be distributed via GPO.
+2. Zabbix_agent_local Zbx_agent.txt - runs localy on server. Can be distributed via GPO.
 
 
 Basic scenarios to handle:
