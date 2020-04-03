@@ -1,6 +1,8 @@
 # Zabbix_agent update and install
  
+ 
 Does: 
+
 
 1. Check, if zabbix agent service is installed and running. If not - fixes it.
 
@@ -17,12 +19,14 @@ Does:
 
 Versions:
 
+
 1. Zabbix_agent_remote - runs remotely via invoke-command for each windows server in AD. AD module need to be installed to collect servers list. Servers accounts in AD need to be enabled for delegation for any service via Kerberos auth. 
 
 2. Zabbix_agent_local - runs localy on server. Can be distributed via GPO.
 
 
 Basic scenarios to handle:
+
 
 1. no zabbix installed
 
@@ -38,7 +42,7 @@ Basic scenarios to handle:
 
 7. binares and service are broken
 
-8 no binares, service are broken
+8. no binares, service are broken
 
 9. local repo is empty, service exist
 
@@ -52,6 +56,7 @@ Basic scenarios to handle:
 
 
 Conditions:
+
 
 -Windows 2012 R2 (for Windows 2008 R2 cannot create firewall rule and check connectivity between host and zabbix server)
 
